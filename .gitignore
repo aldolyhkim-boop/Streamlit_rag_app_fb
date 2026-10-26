@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Secrets / local config
+.env
+.streamlit/secrets.toml
+
+# User data — never commit
+uploads/*
+!uploads/.gitkeep
+saved_dashboards/*
+!saved_dashboards/.gitkeep
+shared_links/*
+!shared_links/.gitkeep
+sample_data/*
+!sample_data/extremely_messy_workbook.xlsx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+ai_usage.json

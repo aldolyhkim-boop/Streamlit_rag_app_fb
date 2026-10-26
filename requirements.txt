@@ -1,0 +1,2 @@
+# Keep the standalone Builder dependency entry point aligned with the combined app.
+-r ../requirements.txt
